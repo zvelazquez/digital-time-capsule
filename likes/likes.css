@@ -1,0 +1,27 @@
+h4 {
+    font-family: ;
+}
+
+.music-img {
+    width: 14%;
+    border-radius: 100%;
+    border: 3px solid #132fba;
+    padding: 10px;
+    margin: 1%;
+}
+
+.music-img:hover {
+    transition-delay: 200ms;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    width: 20%;
+    border-radius: 100%;
+    border: 13px solid #132fba;
+    padding: 0px;
+    margin: 1%;
+}
+
+.spotify-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
