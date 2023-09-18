@@ -18,3 +18,9 @@ h4 {
 .pinterest-p {
     padding: 0px 15% 2% 3%;
 }
+
+.ig-img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}

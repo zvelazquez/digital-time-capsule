@@ -4,14 +4,21 @@
 
 body {
     background-color: #fff9f0;
+}
+
+main {
     margin: 0% 10%;
 }
 
 nav {
+	padding: 25px;
+	margin: auto;
+    margin-left: -40px;
+    width: 100%;
     text-align: center;
-    margin-left: -4%;
-    padding-top: 45px;
-    padding-bottom: 35px;
+    position: sticky;
+    top: 0;
+    background-color: #fff9f0;
 }
 
 nav a {
@@ -24,11 +31,17 @@ nav a {
 }
 
 nav a:hover {
-	color: #020c3d;
+    border: 1.5px solid #91b0f9;
+    border-radius: 7px;
+    padding: 3px;
 }
 
 nav a.active {
-	color: #132fba;
+	color: #fff9f0;
+    background-color: #132fba;
+    border: 1.5px solid #132fba;
+    border-radius: 7px;
+    padding: 3px 5px;
 }
 
 h3 {
@@ -41,16 +54,37 @@ h3 {
     letter-spacing: 2px;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 15px;
+    background-color: green;
+    flex-direction: row;
+}
+
+.cell{
+    padding: 20px;
+    margin: 10px;
+    object-fit: contain;
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: red;
+}
+
 header img {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 35px;
     max-width: 95px;
 }
 
 .profile-img {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 35%;
 }
 
@@ -59,9 +93,10 @@ h2 {
     flex-direction: column;
     font-family: 'Handjet', sans-serif;
     text-align: right;
-    font-size: 95px;
+    font-size: 75px;
     max-width: 90%;
     color: #132fba;
+    padding-top: 105px;
 }
 
 p {
