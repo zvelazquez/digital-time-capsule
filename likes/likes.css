@@ -2,8 +2,8 @@ h4 {
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     text-align: center;
+    text-size-adjust: auto;
     font-weight: 900;
-    font-size: 19px;
     color: #132fba;
 }
 
@@ -12,17 +12,6 @@ h4 {
     border-radius: 100%;
     border: 3px solid #132fba;
     padding: 10px;
-    margin: 1%;
-}
-
-.music-img:hover {
-    /* transition-delay: 200ms;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out; */
-    width: 20%;
-    border-radius: 100%;
-    border: 13px solid #132fba;
-    padding: 0px;
     margin: 1%;
 }
 
@@ -55,6 +44,19 @@ h4 {
     flex-wrap: wrap;
     border: 4px solid #132fba;
     border-radius: 100%;
+}
+
+.spotify-artist img :hover {
+	object-fit: contain;
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid #132fba;
+    border-radius: 100%;
+}
+
+.view-profile {
+    text-decoration: none;
 }
 
 h5 {
