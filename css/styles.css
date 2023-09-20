@@ -66,6 +66,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-content: center;
+    /* flex-wrap: wrap; */
     /* margin-left: -12%;
     margin-right: -14%; */
     /* background-color: red; */
@@ -88,12 +89,13 @@ h3 {
 #gif {
     /* width: 75%; */
     width: 65%;
-    margin: 0% 20%;
+    margin: 0% 30%;
     /* background-color: yellow; */
 }
 
 #splash-text {
-    margin-right: 10%;
+    margin-right: 5%;
+    padding-left: 5%;
     /* background-color: green; */
 }
 
@@ -103,12 +105,6 @@ header img {
     margin: auto;
     margin-top: 35px;
     max-width: 95px;
-}
-
-.profile-img {
-    display: flex;
-    flex-direction: row;
-    max-width: 35%;
 }
 
 h2 {
