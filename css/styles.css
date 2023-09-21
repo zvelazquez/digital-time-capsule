@@ -10,6 +10,23 @@ main {
     margin: 0% 10%;
 }
 
+footer {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer img {
+    width: 2%;
+    padding: 7px;
+}
+
+footer h6 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 12px;
+    padding: 7px;
+}
+
 nav {
 	padding: 25px;
 	margin: auto;
@@ -19,7 +36,6 @@ nav {
     position: sticky;
     top: 0;
     background-color: #fff9f0;
-    /* filter: blur(10px); */
 }
 
 nav a {
@@ -57,46 +73,26 @@ h3 {
 }
 
 .box {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 10px;
-    padding: 15px;
-    background-color: green; */
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* flex-wrap: wrap; */
-    /* margin-left: -12%;
-    margin-right: -14%; */
-    /* background-color: red; */
 }
 
 .cell{
-    /* padding: 20px;
-    margin: 10px;
-    object-fit: contain;
-	width: 25%;
-    border-radius: 15px;
-    background-color: red; */
     width: 50%;
     margin: auto;
     padding-top: 2%;
     padding-left: 1%;
-    /* background-color: green; */
 }
 
 #gif {
-    /* width: 75%; */
     width: 65%;
     margin: 0% 30%;
-    /* background-color: yellow; */
 }
 
 #splash-text {
     margin-right: 5%;
     padding-left: 5%;
-    /* background-color: green; */
 }
 
 header img {
@@ -115,7 +111,6 @@ h2 {
     font-size: 90px;
     width: auto;
     color: #132fba;
-    /* padding-top: 5%; */
 }
 
 p {
@@ -125,7 +120,7 @@ p {
 }
 
 .bio-p {
-    margin: 3% 15% 10% 15%;
+    margin: 3% 15% 8% 15%;
 }
 
 li {
