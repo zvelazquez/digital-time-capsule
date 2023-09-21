@@ -1,6 +1,7 @@
 h4 {
     font-family: 'Gruppo', sans-serif;
     font-size: 25px;
+    display: inline-block;
     text-transform: uppercase;
     color: #132fba;
     width: fit-content;
@@ -8,6 +9,7 @@ h4 {
     border-radius: 8px;
     padding: 5px;
     margin-bottom: 25px;
+    margin: 0px 7% 25px 7%;
 }
 
 .pinterest-img {
@@ -17,14 +19,17 @@ h4 {
     justify-content: left;
 }
 
-.pinterest-p {
-    padding: 0px 15% 2% 3%;
-}
-
 .ig-img {
     width: 20%;
     border-radius: 20px;
     margin: 20px;
+}
+
+.pinterest-p {
+    padding-bottom: 5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-right: 10%;
 }
 
 

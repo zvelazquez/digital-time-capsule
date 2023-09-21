@@ -69,3 +69,8 @@ h5:hover {
     transition-duration: 400ms;
 }
 
+.tv-img {
+    width: 29%;
+    border-radius: 20px;
+    margin: 20px;
+}
