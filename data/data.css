@@ -12,12 +12,6 @@ h4 {
     margin: 0px 7% 10px 0%;
 }
 
-.ig-img {
-    width: 20%;
-    border-radius: 20px;
-    margin: 20px;
-}
-
 .pinterest-p {
     padding-bottom: 5%;
     margin-top: 25px;
@@ -53,6 +47,49 @@ h4 {
 .pinterest-img-cell img {
     max-width: 95%;
     padding-left: 5%;
+}
+
+.ig-gallery {
+    display: flex;
+	flex-wrap: wrap;
+    /* margin: auto; */
+    /* padding: 5px; */
+    /* background-color: red; */
+}
+
+.ig-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-basis: 20%;
+    font-size: fit;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+    /* background-color: green; */
+}
+
+.ig-h4 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
+    margin: auto;
+}
+
+.ig-img {
+    width: 100%;
+    border-radius: 20px;
+    /* margin: 20px; */
+}
+
+.ig-p {
+    text-align: center;
 }
 
 
