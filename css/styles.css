@@ -64,7 +64,7 @@ nav a.active {
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
     font-family: 'Handjet', sans-serif;
     font-size: 65px;
     color: #132fba;
@@ -77,7 +77,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .cell{
@@ -85,18 +85,13 @@ h3 {
     margin: auto;
     padding-top: 2%;
     /* padding-left: 1%; */
-    background-color: red;
+    /* background-color: red; */
 }
 
 #gif {
-    width: 65%;
+    width: 80%;
     margin: auto;
-}
-
-#splash-text {
-    margin-right: 5%;
-    padding-left: 5%;
-    display: inline;
+    justify-content: right;
 }
 
 header img {
@@ -104,6 +99,7 @@ header img {
     flex-direction: column;
     margin: auto;
     margin-top: 35px;
+    margin-bottom: 15px;
     max-width: 95px;
 }
 
@@ -112,9 +108,17 @@ h2 {
     flex-direction: row;
     font-family: 'Handjet', sans-serif;
     text-align: right;
-    font-size: 75px;
+    font-size: 95px;
     width: auto;
     color: #132fba;
+    padding-top: 10%;
+}
+
+#splash-text {
+    margin-right: 5%;
+    padding-left: -5%;
+    display: inline;
+    margin-top: 5%;
 }
 
 p {
@@ -124,7 +128,7 @@ p {
 }
 
 .bio-p {
-    margin: 3% 15% 8% 15%;
+    margin: 10% 15% 15% 0%;
 }
 
 li {
@@ -164,20 +168,14 @@ li {
 }
 
 .ticker-wrap {
-    /* position: fixed; */
     margin-top: 10x;
     margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     bottom: 0;
     max-width: 100%;
-    /* margin-left: -15%; */
-    /* margin-right: 15%; */
     overflow: hidden;
     height: 4rem;
-    /* background-color: #fff9f0;  */
-    /* padding-left: 100%; */
-    /* padding-right: 100%; */
     box-sizing: content-box;
 }
 
