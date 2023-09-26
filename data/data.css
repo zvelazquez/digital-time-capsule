@@ -8,15 +8,8 @@ h4 {
     border: 2.25px solid #132fba;
     border-radius: 8px;
     padding: 5px;
-    margin-bottom: 25px;
-    margin: 0px 7% 25px 7%;
-}
-
-.pinterest-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: left;
+    margin-bottom: 15px;
+    margin: 0px 7% 10px 0%;
 }
 
 .ig-img {
@@ -30,6 +23,36 @@ h4 {
     margin-top: 25px;
     margin-bottom: 35px;
     padding-right: 10%;
+}
+
+.pinterest-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* background-color: green; */
+}
+
+.text-cell{
+    width: 25%;
+    justify-content: left;
+    /* margin: auto; */
+    padding-top: 2%;
+    /* padding-left: 1%; */
+    /* background-color: red; */
+}
+
+.pinterest-img-cell {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 75%;
+    /* background-color: yellow; */
+}
+
+.pinterest-img-cell img {
+    max-width: 95%;
+    padding-left: 5%;
 }
 
 
