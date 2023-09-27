@@ -15,6 +15,12 @@ h4 {
     margin: 1%;
 }
 
+.spotify-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
 .spotify-gallery {
     display: flex;
 	flex-wrap: wrap;
