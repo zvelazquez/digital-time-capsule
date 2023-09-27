@@ -111,14 +111,13 @@ h2 {
     font-size: 95px;
     width: auto;
     color: #132fba;
-    padding-top: 10%;
+    margin-top: 10%;
 }
 
 #splash-text {
     margin-right: 5%;
     padding-left: -5%;
     display: inline;
-    margin-top: 5%;
 }
 
 p {
