@@ -43,13 +43,12 @@ h4 {
     padding-bottom: 5%;
     margin-top: 25px;
     margin-bottom: 35px;
-    padding-right: 0%;
+    text-align: justify;
 }
 
 .spotify-list {
     font-family: 'Jost', sans-serif;
     text-align: left;
-
 }
 
 .spotify-artist#icon {
