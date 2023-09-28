@@ -77,15 +77,12 @@ h3 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* background-color: green; */
 }
 
 .cell{
     width: 50%;
     margin: auto;
     padding-top: 2%;
-    /* padding-left: 1%; */
-    /* background-color: red; */
 }
 
 #gif {

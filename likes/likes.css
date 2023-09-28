@@ -19,7 +19,6 @@ h4 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* background-color: green; */
 }
 
 .spotify-gallery {
@@ -29,14 +28,12 @@ h4 {
     margin: auto;
     padding: 5px;
     border-radius: 25px;
-    /* background-color: red; */
 }
 
 .text-cell{
     justify-content: left;
     margin-right: 5%;
     padding-top: 2%;
-    /* background-color: yellow; */
 }
 
 .spotify-p {
