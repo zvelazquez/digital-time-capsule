@@ -33,7 +33,7 @@ h4 {
 
 .text-cell{
     justify-content: left;
-    margin-right: -10%;
+    margin-right: 5%;
     padding-top: 2%;
     /* background-color: yellow; */
 }
@@ -42,7 +42,13 @@ h4 {
     padding-bottom: 5%;
     margin-top: 25px;
     margin-bottom: 35px;
-    padding-right: 40%;
+    padding-right: 0%;
+}
+
+.spotify-list {
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    
 }
 
 .spotify-artist#icon {
