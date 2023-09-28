@@ -17,6 +17,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 35px;
     padding-right: 10%;
+    text-align: justify;
 }
 
 .pinterest-section {
@@ -79,7 +80,7 @@ h4 {
 }
 
 .ig-p {
-    text-align: center;
+    text-align: justify;
 }
 
 
