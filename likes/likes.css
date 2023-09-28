@@ -142,6 +142,12 @@ h5:hover {
     border-radius: 20px;
 }
 
+.tv-img:hover {
+    height: 515px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
 .tv-p {
     text-align: center;
 }
