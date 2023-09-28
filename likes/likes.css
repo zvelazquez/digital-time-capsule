@@ -27,7 +27,6 @@ h4 {
     margin: auto;
     padding: 5px;
     border-radius: 25px;
-    /* background-color: red; */
 }
 
 .spotify-artist#icon {
@@ -78,9 +77,6 @@ h5:hover {
 .tv-gallery {
     display: flex;
 	flex-wrap: wrap;
-    /* margin: auto; */
-    /* padding: 5px; */
-    /* background-color: red; */
 }
 
 .tv-section {
@@ -93,7 +89,6 @@ h5:hover {
     width: fit-content;
     margin: auto;
     margin-bottom: 40px;
-    /* background-color: green; */
 }
 
 .tv-h4 {
@@ -111,7 +106,6 @@ h5:hover {
 .tv-img {
     height: 475px;
     border-radius: 20px;
-    /* margin: 20px; */
 }
 
 .tv-p {

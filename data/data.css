@@ -23,16 +23,12 @@ h4 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* background-color: green; */
 }
 
 .text-cell{
     width: 25%;
     justify-content: left;
-    /* margin: auto; */
     padding-top: 2%;
-    /* padding-left: 1%; */
-    /* background-color: red; */
 }
 
 .pinterest-img-cell {
@@ -41,7 +37,6 @@ h4 {
     flex-wrap: wrap;
     align-content: center;
     width: 75%;
-    /* background-color: yellow; */
 }
 
 .pinterest-img-cell img {
@@ -52,9 +47,6 @@ h4 {
 .ig-gallery {
     display: flex;
 	flex-wrap: wrap;
-    /* margin: auto; */
-    /* padding: 5px; */
-    /* background-color: red; */
 }
 
 .ig-section {
@@ -67,7 +59,6 @@ h4 {
     width: fit-content;
     margin: auto;
     margin-bottom: 40px;
-    /* background-color: green; */
 }
 
 .ig-h4 {
@@ -85,7 +76,6 @@ h4 {
 .ig-img {
     width: 100%;
     border-radius: 20px;
-    /* margin: 20px; */
 }
 
 .ig-p {
