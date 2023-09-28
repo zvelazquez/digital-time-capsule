@@ -19,6 +19,7 @@ h4 {
     display: flex;
     flex-direction: row;
     align-content: center;
+    /* background-color: green; */
 }
 
 .spotify-gallery {
@@ -27,6 +28,21 @@ h4 {
     margin: auto;
     padding: 5px;
     border-radius: 25px;
+    /* background-color: red; */
+}
+
+.text-cell{
+    justify-content: left;
+    margin-right: -10%;
+    padding-top: 2%;
+    /* background-color: yellow; */
+}
+
+.spotify-p {
+    padding-bottom: 5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-right: 40%;
 }
 
 .spotify-artist#icon {
@@ -53,6 +69,17 @@ h4 {
 
 .view-profile {
     text-decoration: none;
+}
+
+.section-title {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 h5 {
@@ -89,18 +116,6 @@ h5:hover {
     width: fit-content;
     margin: auto;
     margin-bottom: 40px;
-}
-
-.tv-h4 {
-    font-family: 'Gruppo', sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #132fba;
-    width: fit-content;
-    border: 2.25px solid #132fba;
-    border-radius: 8px;
-    padding: 5px;
-    margin: auto;
 }
 
 .tv-img {
